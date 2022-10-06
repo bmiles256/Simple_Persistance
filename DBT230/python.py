@@ -12,6 +12,9 @@ class Employee:
 
 Simple_Path = r'C:\Users\NEra3\Desktop\Current Quarter\Sprint 1\Databases 2\Sample Data\assignment1Data\people\simple'
 
+Simple_
+
+
 def print_people_details(path):
     files = os.listdir(path)
     for files in files:
@@ -39,6 +42,14 @@ def print_employee(path):
 
 def add_employee(id, first, last, year):
     nfile = os.write("%s.csv " % id, "w")
+
+#def delete_employee(id):
+
+#def update_employee(id, firstName, lastName, year):
+
+#def serializeAllEmployees():
+
+#def getSerialized(id):
 
 
 print_people_details(Simple_Path)
